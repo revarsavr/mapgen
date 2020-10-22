@@ -11,3 +11,7 @@ Uso:
 3) ./cub3D rand.cub
 
 cub3D debería ser el nombre de tu programa para visualizar mapas (mediante RayCasting).
+
+Nota: 
+
+si tu cub3D ya visualiza texturas, asegúrate de cambiar "./path_to_the..." en mapgen.c a sus directorios correspondientes.
