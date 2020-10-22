@@ -26,8 +26,8 @@ int main(void)
 	while (i++ < w + 2)
 		write(fd, "1", 1);
 	write(fd, "\n", 1);
-	posx = rand() % (h - 2);
-	posy = rand() % (w - 2);
+	posx = rand() % h;
+	posy = rand() % w;
 	x = 0;
 	while (x < h)
 	{
@@ -36,7 +36,7 @@ int main(void)
 		while (y < w)
 		{
 			c = '0' + rand() % 2;
-			if (x == posx + 1 && y == posy + 1)
+			if (x == posx && y == posy)
 				c = dirs[rand() % 4];
 			write(fd, &c, 1);
 			y++;
