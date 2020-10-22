@@ -14,4 +14,4 @@ cub3D debería ser el nombre de tu programa para visualizar mapas (mediante RayC
 
 Nota: 
 
-si tu cub3D ya visualiza texturas, asegúrate de cambiar "./path_to_the..." en mapgen.c a sus directorios correspondientes.
+si tu cub3D ya visualiza texturas, asegúrate de cambiar "./path_to_the..." en mapgen.c a sus directorios correspondientes, y de cambiar el número de bytes a escribir (el último argumento de la función write).
