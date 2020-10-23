@@ -24,5 +24,7 @@ Notas:
 Ejemplos:
 
 "./mapgen 30" genera un mapa con un 30% de obstáculos.
+
 ·./mapgen 40 20" genera un mapa de 40x20, con el 50% de obstáculos por defecto.
+
 "./mapgen 60 10 15" genera un mapa de 10x15, con un 60% de obstáculos.
