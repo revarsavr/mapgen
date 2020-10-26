@@ -41,7 +41,7 @@ int		main(int argc, char **argv)
     
 	/* Valores por defecto de densidad, frecuencia de sprites, ancho y alto del mapa, respectivamente */
 	d = 50;
-	s = 10;
+	s = 5;
 	w = 10;
 	h = 10;
 
