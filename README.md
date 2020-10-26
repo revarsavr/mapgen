@@ -1,7 +1,7 @@
 # mapgen
 
 mapgen es un generador de mapas válidos aleatorios. Genera un mapa (en el directorio actual) llamado "rand.cub", que va a ser siempre válido.
-Por defecto tendrá dimensiones de 10x10, un 50% de obstáculos (un 10% de los cuales serán sprites).
+Por defecto tendrá dimensiones de 10x10, un 50% de obstáculos (un 5% de los cuales serán sprites).
 
 Uso: 
 
